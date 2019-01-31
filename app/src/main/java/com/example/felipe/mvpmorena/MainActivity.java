@@ -3,6 +3,7 @@ package com.example.felipe.mvpmorena;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.animation.ValueAnimator;
+import android.content.Intent;
 import android.databinding.DataBindingUtil;
 import android.graphics.Color;
 import android.graphics.PorterDuff;
@@ -64,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
             public void run() {
                 revealButton();
                 fadeOutProgressDialog();
+                delayedStartNextActivity();
 
             }
 
@@ -96,6 +98,13 @@ public class MainActivity extends AppCompatActivity {
         mBinding.progressBar.animate().alpha(0f).setDuration(200).start();
     }
     private void delayedStartNextActivity(){
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                startActivity(new Intent(MainActivity.this, ScrollingActivity.class));
+
+            }
+        }, 1000);
 
     }
     private int getFinalWidth(){
