@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<layout>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
 
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -64,18 +64,6 @@ xmlns:tools="http://schemas.android.com/tools"
         android:background="@color/colorPrimary"
         android:visibility="invisible" />
 
-    <TextView
-        android:id="@+id/ss"
-        android:layout_width="215dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="86dp"
-        android:layout_marginTop="238dp"
-        android:hint="Usuario"
-        android:inputType="text"
-        android:textSize="15pt" />
-
     <EditText
         android:id="@+id/editText"
         android:layout_width="wrap_content"
@@ -87,6 +75,15 @@ xmlns:tools="http://schemas.android.com/tools"
         android:ems="10"
         android:hint="Contraseña"
         android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Usuario" />
 
 
 </RelativeLayout>
