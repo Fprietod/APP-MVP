@@ -1,9 +1,12 @@
 <resources>
     <string name="app_name">MVPMorena</string>
     <string name="iniciar_sesi_n">Iniciar sesión</string>
-    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="title_activity_scrolling"></string>
     <string name="large_text">
-        "Material is the metaphor.\n\n"
+        "Orden del día.\n\n"
+
+        Esta es una aplicación que facilitará en la toma de una decisión, agilizara el proceso
+        de la lectura del orden del día \n
 
         "A material metaphor is the unifying theory of a rationalized space and a system of motion."
         "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "

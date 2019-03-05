@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<layout xmlns:android="http://schemas.android.com/apk/res/android">
+<layout>
 
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -11,7 +11,7 @@ xmlns:tools="http://schemas.android.com/tools"
     tools:context=".MainActivity">
 
     <ImageView
-        android:layout_width="358dp"
+        android:layout_width="339dp"
         android:layout_height="171dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
@@ -66,24 +66,24 @@ xmlns:tools="http://schemas.android.com/tools"
 
     <EditText
         android:id="@+id/editText"
-        android:layout_width="wrap_content"
+        android:layout_width="241dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="79dp"
-        android:layout_marginBottom="166dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="163dp"
         android:ems="10"
         android:hint="Contraseña"
         android:inputType="textPassword" />
 
     <EditText
         android:id="@+id/editText2"
-        android:layout_width="wrap_content"
+        android:layout_width="255dp"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:hint="Usuario" />
+        android:hint="Usuario"
+        android:inputType="textPersonName" />
 
 
 </RelativeLayout>

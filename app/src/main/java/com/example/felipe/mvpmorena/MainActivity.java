@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void showProgressDialog(){
-        mBinding.progressBar.getIndeterminateDrawable().setColorFilter(Color.parseColor("#fffff"), PorterDuff.Mode.SRC_IN);
+        mBinding.progressBar.getIndeterminateDrawable().setColorFilter(Color.parseColor("#240B3B"), PorterDuff.Mode.SRC_IN);
         mBinding.progressBar.setVisibility(View.VISIBLE);
     }
 
@@ -111,3 +111,4 @@ public class MainActivity extends AppCompatActivity {
         return (int) getResources().getDimension(R.dimen.get_width);
     }
 }
+
